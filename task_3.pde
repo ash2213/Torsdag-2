@@ -9,7 +9,7 @@ if(a==10||b==10||a+b==10) {
 //3.b
 int min=0;
 int max=0;
-if (min+max>10 && min<=5 || max<=5)
+if (min+max>10 && (min<=5 || max<=5))
 {
   println("Success");
 } else {
