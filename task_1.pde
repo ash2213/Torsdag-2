@@ -40,4 +40,5 @@ switch (month){
   break;
   default:
   println("Invalid value");
+  break;
 }
